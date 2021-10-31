@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic&display=swap&subset=cyrillic-ext");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+	line-height: 1;
+	overflow-x: hidden;
+}
+.wrapper {
+	min-height: 100%;
+	padding: 0px 0px 50px 0px;
+}
+
+.promise {
+	padding: 45px 210px 125px 210px;
+	border: 2px solid #d4d0d0;
+	border-radius: 20px;
+	display: flex;
+	flex-direction:column;
+}
+.promise_margin {
+	margin: 50px 50px 250px 50px;
+}
+.promise__tittle {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	color: #5D62B5;
+	padding: 2px 0px 0px 30px;
+	background: url("../img/promise/Mark.svg") 0 0/auto no-repeat;
+	margin: 0px 0px 33px 0px;
+}
+.promise__subtittle {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+	margin: 0px 0px 68px 0px;
+}
+.promise__item {
+	display: flex;
+	margin: 0 -24px;
+	
+}
+.item__promise {
+	padding: 0px 24px;
+	display: inline-flex;
+	align-items: flex-start;
+	flex: 0 0 33%;
+}
+.item__promise:nth-child(3) {
+	padding: 0px 0px 0px 0px;
+}
+.item__img {
+	order: 1;
+	margin: 0px 30px 0px 0px;
+	
+}
+
+.item__body {
+	order: 2;
+}
+.item__tittle {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 19px;
+	line-height: 26px;
+	color: #F2726F;
+	margin: 0px 0px 20px 0px;
+}
+.item__text {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #4B4B4B;
+}
+
+
+.impact {
+	max-width: 100%;
+	background: url("../img/impact/Blob.svg") 65% 0/auto no-repeat #29C3BE;
+	padding: 112px 210px 132px 210px;
+	position: relative;
+}
+.impact__img {
+	display: block;
+	max-width: 498px;
+	max-height: 315px;
+	border-radius: 40px;
+	position: absolute;
+	left: 44%;
+	top: -75px;
+}
+.impact__tittle {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: url("../img/impact/Overline.svg") 0 0/auto no-repeat;
+	padding: 2px 0px 0px 30px;
+	margin: 0px 0px 35px 0px;
+}
+.impact__subtittle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	max-width: 40%;
+	padding: 0px 20px 0px 0px;
+	margin: 0px 0px 80px 0px;
+}
+.impact__element {
+	display: flex;
+	margin: 0 -24px;
+}
+.element__impact {
+	padding: 0px 24px;
+	display: inline-flex;
+	align-items: flex-start;
+	flex: 0 0 25%;
+}
+.element__impact:nth-child(4) {
+	padding: 0px 0px 0px 0px;
+}
+.element__img {
+	order: 1;
+	margin: 0px 10px 0px 0px;
+}
+.element__body {
+	order: 2;
+}
+.element__tittle {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+.element__text {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #5D62B5;
+}
+
+
+
+
+
+
+
+
